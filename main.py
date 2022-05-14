@@ -29,7 +29,7 @@ def films():
     return render_template('table_movies.html', films=films_dict, name='Sorelle')
 
 
-@app.route('/macros')
+@app.route('/scof')
 def films_macros():
     films_dict = {
         'BLACK PANTHER': 2.5,
